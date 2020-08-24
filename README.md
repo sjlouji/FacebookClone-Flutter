@@ -1,6 +1,11 @@
-# facebookclone
+# Flutter Facebook Clone. 
 
-A new Flutter application.
+Flutter Facebook Clone. 
+This is a simple flutter application where I have clonned Facebook UI.
+Created by [Joan Louji]{https://joanlouji.web.app/}
+
+## Demo
+
 
 ## Getting Started
 
