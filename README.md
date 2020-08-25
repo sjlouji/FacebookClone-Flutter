@@ -17,8 +17,7 @@ flutter run
 
 ## Demo
 
-<video src="FacebookClone.mov" poster="poster.jpg" width="320" height="200" controls preload></video>
-
+<img src="FacebookCloneGif.gif" height="300em" /> <br>
 <img src="facebookClone2.png" height="300em" /> <br>
 <img src="FacebookClone3.png" height="300em" /> <br>
 <img src="FacebookClone4.png" height="300em" /> <br>
