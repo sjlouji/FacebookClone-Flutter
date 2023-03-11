@@ -24,8 +24,6 @@ class AddPostPage extends StatefulWidget {
 }
 
 class _AddPostState extends State<AddPostPage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -45,7 +43,8 @@ class _AddPostState extends State<AddPostPage> {
                       child: CircleAvatar(
                         radius: 20.0,
                         backgroundColor: Colors.grey[200],
-                        backgroundImage: NetworkImage("https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp"),
+                        backgroundImage: NetworkImage(
+                            "https://qph.fs.quoracdn.net/main-qimg-11ef692748351829b4629683eff21100.webp"),
                       ),
                     ),
                   ],
@@ -66,7 +65,7 @@ class _AddPostState extends State<AddPostPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  FlatButton.icon(
+                  ElevatedButton.icon(
                     onPressed: () => print('Live'),
                     icon: const Icon(
                       MdiIcons.videoImage,
@@ -75,8 +74,10 @@ class _AddPostState extends State<AddPostPage> {
                     ),
                     label: Text('Live'),
                   ),
-                  const VerticalDivider(width: 8.0,),
-                  FlatButton.icon(
+                  const VerticalDivider(
+                    width: 8.0,
+                  ),
+                  ElevatedButton.icon(
                     onPressed: () => print('Photo'),
                     icon: const Icon(
                       Icons.photo_library,
@@ -86,7 +87,7 @@ class _AddPostState extends State<AddPostPage> {
                     label: Text('Photo'),
                   ),
                   const VerticalDivider(width: 8.0),
-                  FlatButton.icon(
+                  ElevatedButton.icon(
                     onPressed: () => print('Room'),
                     icon: const Icon(
                       Icons.video_call,
@@ -104,4 +105,3 @@ class _AddPostState extends State<AddPostPage> {
     );
   }
 }
-
